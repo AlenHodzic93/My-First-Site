@@ -1,0 +1,91 @@
+body{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+.box{
+    margin-bottom: 10px;
+}
+.wraper{
+    background-color: #ccc;
+    box-sizing: border-box;
+    margin: auto;
+    width: 990px;
+    padding: 15px;
+}
+#slika-naslova{
+    float: left;;
+    padding: 10px;
+}
+#naslov1{
+    float: right;
+    color: #fff;
+    padding: 10px;
+    font-style: italic;
+    font-size: 1.4em;
+}
+.naslov{
+    background-color: #c51417;
+    height: 100px;
+}
+.navigacija{
+    background-color: #333;
+    overflow: hidden;
+}
+#lista-ikone ul{
+    float: right;
+    
+}
+#lista-ikone li{
+    padding-right: 15px;
+    color: #fff;
+}
+.navigacija ul{  
+    list-style-type: none;
+    padding: 0px;
+    float: left;
+}
+.navigacija li{
+display: inline;
+background-color: none;
+margin:10px;
+}
+.navigacija li a {
+    text-decoration: none;
+    color:#fff;
+}
+.navigacija li :hover{
+    color: #c51417;
+}
+
+.main{
+    width:700px;
+    float: left;
+}
+.sidebar{
+    width: 240px;
+    float: right;
+}
+
+.sidebar-title{
+    background-color: #BBB;
+    color:#fff;
+    padding: 5px;
+}
+.sidebar a{
+    text-decoration: none;
+    color: #c51417;
+}
+.footer{
+    background-color: #333;
+    padding: 10px;
+    clear: both;
+}
+.footer p{
+    color: #fff;
+    font-size: .5em;
+    text-align: center;
+    margin:0;
+}
